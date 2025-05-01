@@ -56,5 +56,4 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6CAF9092E43C447C805B729FB7E9232F }} where is this in this code - name: Run Tests
-  run: npm test
-  working-directory: swa-db-connections
+ 
